@@ -54,7 +54,7 @@ body {
     position: static;
     z-index: 1;
     width: 100%;
-    margin: 0 0 30px;
+    margin: 0 0 2%;
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
@@ -116,7 +116,7 @@ body {
   }
   
   #main-container {
-    padding-top: 130px;
+    padding-top: 2%;
     min-height: calc(100vh - 70px);
   }
   
