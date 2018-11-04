@@ -3,14 +3,14 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
+    margin: 0;
     background: url("../images/qbkls.png");
   }
   
   * {
     box-sizing: border-box;
   }
-  
-  /* general */
+
   
   .container {
     width: 100%;
@@ -51,7 +51,7 @@ body {
   }
   
   #masthead {
-    position: fixed;
+    position: static;
     z-index: 1;
     width: 100%;
     margin: 0 0 30px;
@@ -255,11 +255,7 @@ body {
       margin-top: 0px;
       margin-bottom: 3%;
     }
-
-    body {
-      line-height: 20px;
-      margin: 0;
-    }
+  
 
     p{
       text-align: justify;
